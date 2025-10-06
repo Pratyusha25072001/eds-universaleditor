@@ -56,7 +56,8 @@
 
 .topbar-wrapper .topbar > div:nth-child(4) > div > div {
   display: flex;
-  gap: 20px;
+  gap: 13px;
+  margin-left: 504px;
 }
 
 .topbar-wrapper .topbar p a {
@@ -84,7 +85,7 @@
 .topbar-wrapper .topbar > div:nth-child(4) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f39e";
-  font-size: 20px;
+  font-size: 16px;
   color: #ccc;
  
   left: 0;
@@ -95,7 +96,7 @@
 .topbar-wrapper .topbar > div:nth-child(4) p:nth-child(2) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f099";
-  font-size: 20px;
+  font-size: 16px;
   color: #ccc;
   
   left: 0;
@@ -106,7 +107,7 @@
 .topbar-wrapper .topbar > div:nth-child(4) p:nth-child(3) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f0e1";
-  font-size: 20px;
+  font-size: 16px;
   color: #ccc;
   
   left: 0;
@@ -117,7 +118,7 @@
 .topbar-wrapper .topbar > div:nth-child(4) p:nth-child(4) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
-  font-size: 20px;
+  font-size: 16px;
   color: #ccc;
   
   left: 0;
