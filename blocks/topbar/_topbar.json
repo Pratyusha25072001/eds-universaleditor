@@ -46,7 +46,28 @@
         
       {
         "component": "richtext",
-        "name": "socialIcons",
+        "name": "socialIcons1",
+        "value": "",
+         "label": "Social Icons",
+         "valueType": "string"
+        },
+         {
+        "component": "richtext",
+        "name": "socialIcons2",
+        "value": "",
+         "label": "Social Icons",
+         "valueType": "string"
+        },
+         {
+        "component": "richtext",
+        "name": "socialIcons3",
+        "value": "",
+         "label": "Social Icons",
+         "valueType": "string"
+        },
+         {
+        "component": "richtext",
+        "name": "socialIcons4",
         "value": "",
          "label": "Social Icons",
          "valueType": "string"
