@@ -1,4 +1,4 @@
-/* Load Font Awesome */
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 
@@ -7,7 +7,7 @@
     height: 40px;
     padding: 0 53px;
 }
-/* Make topbar items inline */
+
 .topbar-wrapper .topbar {
   display: flex;
   justify-content: flex-start;
@@ -15,13 +15,13 @@
   gap: 30px;
 }
 
-/* Ensure each inner div is flex-aligned */
+
 .topbar-wrapper .topbar > div {
   display: flex;
   align-items: center;
 }
 
-/* Style for the <p> tags */
+
 .topbar-wrapper .topbar p {
   margin: 0;
   font-size: .775em;
@@ -31,7 +31,7 @@
  
 }
 
-/* Add icons using ::before */
+
 .topbar-wrapper .topbar > div:nth-child(1) p::before {
   font-family: "Font Awesome 5 Free";
   content: "\f879"; /* fa-phone-alt */
@@ -57,7 +57,7 @@
 .topbar-wrapper .topbar > div:nth-child(4)  {
   display: flex;
   gap: 13px;
-  margin-left: 530px;
+  margin-left: 470px;
 }
 
 .topbar-wrapper .topbar p a {
@@ -71,7 +71,7 @@
 
 
     
-* Hide link text and show icons */
+
 .topbar-wrapper .topbar > div:nth-child(4) > div  p a {
   font-size: 0;
   color: transparent;
@@ -81,51 +81,51 @@
   height: 20px;
 }
 
-/* Facebook */
+
 .topbar-wrapper .topbar > div:nth-child(4) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f39e";
   font-size: 16px;
   color: #ccc;
- 
+  margin-left: 72px;
   left: 0;
   top: 0;
 }
 
-/* Twitter */
+
 .topbar-wrapper .topbar > div:nth-child(5) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f099";
   font-size: 16px;
   color: #ccc;
-  
+  margin-left: 51px;
   left: 0;
   top: 0;
 }
 
-/* LinkedIn */
+
 .topbar-wrapper .topbar > div:nth-child(6) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f0e1";
   font-size: 16px;
   color: #ccc;
-  
+  margin-left: 35px;
   left: 0;
   top: 0;
 }
 
-/* Instagram */
+
 .topbar-wrapper .topbar > div:nth-child(7) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
   font-size: 16px;
   color: #ccc;
-  
+  margin-left: 20px;
   left: 0;
   top: 0;
 }
 
-/* Hover effect */
+
 .topbar-wrapper .topbar > div:nth-child(4) p a:hover::before {
   color: #fff;
 }
