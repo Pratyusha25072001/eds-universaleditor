@@ -93,7 +93,7 @@
 }
 
 /* Twitter */
-.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(2) a::before {
+.topbar-wrapper .topbar > div:nth-child(5) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f099";
   font-size: 16px;
