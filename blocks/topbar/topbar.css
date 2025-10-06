@@ -1,5 +1,28 @@
+/* Load Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
+/* Make topbar items inline */
+.topbar-wrapper .topbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Ensure each inner div is flex-aligned */
+.topbar-wrapper .topbar > div {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the <p> tags */
+.topbar-wrapper .topbar p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Add icons using ::before */
 .topbar-wrapper .topbar > div:nth-child(1) p::before {
   font-family: "Font Awesome 5 Free";
   content: "\f879"; /* fa-phone-alt */
@@ -19,17 +42,4 @@
   content: "\f017"; /* fa-clock */
   font-weight: 400;
   margin-right: 8px;
-}
-
-/* Make all items inline */
-.topbar-wrapper .topbar {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 30px;
-}
-
-.topbar-wrapper .topbar > div {
-  display: flex;
-  align-items: center;
 }
