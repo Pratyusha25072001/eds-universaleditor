@@ -54,7 +54,7 @@
 }
 
 
-.topbar-wrapper .topbar > div:nth-child(4) > div > div {
+.topbar-wrapper .topbar > div:nth-child(4) > div  {
   display: flex;
   gap: 20px;
 }
