@@ -21,27 +21,29 @@
     {
       "id": "topbar",
       "fields": [
+        
         {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image"
-          
+          "component": "richtext",
+          "name": "text1",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
         },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
+           {
+          "component": "richtext",
+          "name": "text2",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
         },
         {
           "component": "richtext",
-          "name": "text",
+          "name": "text3",
           "value": "",
           "label": "Text",
           "valueType": "string"
         }
+        
       ]
     }
   ],
