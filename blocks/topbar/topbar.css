@@ -1,49 +1,61 @@
+/* Load Font Awesome */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
-/* Layout for topbar */
+
+.topbar-wrapper {
+    background-color: #15233C !important;
+    height: 40px;
+    padding: 0 53px;
+}
+/* Make topbar items inline */
 .topbar-wrapper .topbar {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
   gap: 30px;
 }
 
-/* Each top-level div inside .topbar */
+/* Ensure each inner div is flex-aligned */
 .topbar-wrapper .topbar > div {
   display: flex;
   align-items: center;
 }
 
-/* Contact Info Icons */
-.topbar-wrapper .topbar > div:nth-child(1) > div > p::before {
+/* Style for the <p> tags */
+.topbar-wrapper .topbar p {
+  margin: 0;
+  font-size: .775em;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-top: 8px;
+  
+ 
+}
+
+/* Add icons using ::before */
+.topbar-wrapper .topbar > div:nth-child(1) p::before {
   font-family: "Font Awesome 5 Free";
   content: "\f879"; /* fa-phone-alt */
   font-weight: 900;
   margin-right: 8px;
 }
 
-.topbar-wrapper .topbar > div:nth-child(2) > div > p::before {
+.topbar-wrapper .topbar > div:nth-child(2) p::before {
   font-family: "Font Awesome 5 Free";
   content: "\f2b6"; /* fa-envelope-open */
   font-weight: 400;
   margin-right: 8px;
 }
 
-.topbar-wrapper .topbar > div:nth-child(3) > div > p::before {
+.topbar-wrapper .topbar > div:nth-child(3) p::before {
   font-family: "Font Awesome 5 Free";
   content: "\f017"; /* fa-clock */
   font-weight: 400;
   margin-right: 8px;
 }
 
-/* Social Icons Container */
-.topbar-wrapper .topbar > div:nth-child(4) > div {
-  display: flex;
-  gap: 20px;
-}
 
-/* Hide link text */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p > a {
+* Hide link text and show icons */
+.topbar block > div:nth-child(4) > div p a {
   font-size: 0;
   color: transparent;
   position: relative;
@@ -53,50 +65,50 @@
 }
 
 /* Facebook */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p:nth-child(1) > a::before {
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(1) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f39e";
   font-size: 20px;
   color: #ccc;
-  position: absolute;
+ 
   left: 0;
   top: 0;
 }
 
 /* Twitter */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p:nth-child(2) > a::before {
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(2) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f099";
   font-size: 20px;
   color: #ccc;
-  position: absolute;
+  
   left: 0;
   top: 0;
 }
 
 /* LinkedIn */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p:nth-child(3) > a::before {
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(3) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f0e1";
   font-size: 20px;
   color: #ccc;
-  position: absolute;
+  
   left: 0;
   top: 0;
 }
 
 /* Instagram */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p:nth-child(4) > a::before {
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(4) a::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
   font-size: 20px;
   color: #ccc;
-  position: absolute;
+  
   left: 0;
   top: 0;
 }
 
 /* Hover effect */
-.topbar-wrapper .topbar > div:nth-child(4) > div > p > a:hover::before {
+.topbar-wrapper .topbar > div:nth-child(4) p a:hover::before {
   color: #fff;
 }
