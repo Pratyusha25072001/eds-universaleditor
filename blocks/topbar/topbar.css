@@ -61,7 +61,7 @@
 
 
 * Hide link text and show icons */
-.topbar-wrapper .topbar > div:nth-child(4) > div > div p:nth-child(1) a {
+.topbar-wrapper .topbar > div:nth-child(4) > div  p a {
   font-size: 0;
   color: transparent;
   position: relative;
