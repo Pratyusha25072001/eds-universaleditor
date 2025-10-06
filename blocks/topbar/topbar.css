@@ -1,0 +1,33 @@
+.topbar-wrapper .topbar > div:nth-child(1) p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f879"; /* fa-phone-alt */
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.topbar-wrapper .topbar > div:nth-child(2) p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f2b6"; /* fa-envelope-open */
+  font-weight: 400;
+  margin-right: 8px;
+}
+
+.topbar-wrapper .topbar > div:nth-child(3) p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f017"; /* fa-clock */
+  font-weight: 400;
+  margin-right: 8px;
+}
+
+/* Make all items inline */
+.topbar-wrapper .topbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.topbar-wrapper .topbar > div {
+  display: flex;
+  align-items: center;
+}
