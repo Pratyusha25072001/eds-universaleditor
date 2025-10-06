@@ -5,6 +5,7 @@
 .topbar-wrapper {
     background-color: #15233C !important;
     height: 40px;
+    padding: 0 53px;
 }
 /* Make topbar items inline */
 .topbar-wrapper .topbar {
