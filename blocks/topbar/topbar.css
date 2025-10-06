@@ -52,3 +52,64 @@
   font-weight: 400;
   margin-right: 8px;
 }
+
+
+* Hide link text and show icons */
+.topbar-wrapper .topbar > div:nth-child(4) p a {
+  font-size: 0;
+  color: transparent;
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+/* Facebook */
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(1) a::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f39e";
+  font-size: 20px;
+  color: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Twitter */
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(2) a::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
+  font-size: 20px;
+  color: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* LinkedIn */
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(3) a::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1";
+  font-size: 20px;
+  color: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Instagram */
+.topbar-wrapper .topbar > div:nth-child(4) p:nth-child(4) a::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f16d";
+  font-size: 20px;
+  color: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Hover effect */
+.topbar-wrapper .topbar > div:nth-child(4) p a:hover::before {
+  color: #fff;
+}
+
