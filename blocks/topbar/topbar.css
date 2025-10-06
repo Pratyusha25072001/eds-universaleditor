@@ -4,6 +4,7 @@
 
 .topbar-wrapper {
     background-color: #15233C !important;
+    height: 40px;
 }
 /* Make topbar items inline */
 .topbar-wrapper .topbar {
@@ -24,6 +25,7 @@
   margin: 0;
   font-size: .875em;
   color: rgba(255, 255, 255, 0.5) !important;
+  margin-top: 8px;
   
  
 }
