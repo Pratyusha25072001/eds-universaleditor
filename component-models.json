@@ -239,6 +239,13 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+         {
+        "component": "richtext",
+        "name": "socialIcons",
+        "value": "",
+         "label": "Social Icons",
+         "valueType": "string"
         }
       ]
     }
